@@ -1,0 +1,41 @@
+.navbar
+    color: $nav-text
+    background-color: $nav-background
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 200
+    //padding: 15px 20px
+    width: 100%
+
+    .brand
+        font-size: 2rem
+        font-weight: 500
+        float: left;
+        margin-left: 10px
+
+    a
+        color $nav-text
+        text-decoration: none;
+        display: block;
+        padding: 5px 20px
+        font-size: 1.25rem
+        //text-shadow: 2px 2px 2px black
+        font-weight: 300
+        margin: 10px 0
+
+
+        &:hover
+            background-color: darken($nav-background, 30)
+            border-bottom: 2px solid white
+
+    ul
+        list-style: none;
+        padding: 0
+        margin: 0
+        margin-right: 10px
+
+
+        li
+            float: right;
+            line-height: 40px
